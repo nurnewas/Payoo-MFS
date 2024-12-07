@@ -11,6 +11,7 @@ document.getElementById("btn-login").addEventListener("click", function (e) {
 
   if (phoneNumber === "01" && pinNumber === "1234") {
     alert('Log in successful');
+    window.location.href = "/home.html";
   }
   else{
     alert('Invalid credentials');
