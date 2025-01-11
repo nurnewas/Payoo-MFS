@@ -30,15 +30,8 @@ document
       // const newBalance = accountBalance + addMoneyInput;
       // console.log(newBalance);
 
-      const newBalance = accountBalance + moneyAdded; // Add both numbers
+      const newBalance = accountBalance + moneyAdded; 
       document.getElementById("account-balance").innerText = newBalance;
-
-      //   Add Money to the Account
-      //   accountBalance += moneyAdded;
-      //   console.log("Account Balance: ", accountBalance);
-      //   alert("Money added successfully");
-      //   addMoneyInput.value = "";
-      //   pinNumberInput.value = "";
     } else {
       alert("Invalid Pin Number");
       return;
